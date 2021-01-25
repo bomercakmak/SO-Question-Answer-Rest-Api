@@ -27,6 +27,17 @@ To get the Node server running locally:
 - `helpers/` - This folder contains helper functions for adapting 3rd party libraries for our API.
 - `dummy/` - This folder contains dummy data created by dummy-generator.js file for our database.
 
+## Dependencies
+
+- [expressjs](https://github.com/expressjs/express) - The server for handling and routing HTTP requests
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - For generating JWTs used by authentication
+- [mongoose](https://github.com/Automattic/mongoose) - For modeling and mapping MongoDB data to JavaScript 
+- [slugify](https://github.com/simov/slugify) - For encoding titles into a URL-friendly format
+- [bcryptjs](https://github.com/dodo/node-slug) - Hashing Password
+- [dotenv](https://github.com/motdotla/dotenv) - Zero-Dependency module that loads environment variables
+- [multer](https://github.com/expressjs/multer) - Node.js middleware for uploading files
+- [nodemailer](https://github.com/nodemailer/nodemailer) - Send e-mails from Node.js
+
 
 
 
