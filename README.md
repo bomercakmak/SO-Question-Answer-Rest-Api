@@ -38,7 +38,15 @@ To get the Node server running locally:
 - [multer](https://github.com/expressjs/multer) - Node.js middleware for uploading files
 - [nodemailer](https://github.com/nodemailer/nodemailer) - Send e-mails from Node.js
 
+## Authentication
 
+Requests are authenticated using the `Authorization` header and value `Bearer: {{token}}`. with a valid JWT. 
+
+We define express middlewares in `middlewares/authorization/auth.js` that can be used to authenticate requests. The `required` middlewares returns `401` or `403`.
+
+## API Specifications
+
+Detailed information can be found in [this specifications](./question-answer-specifications.md).
 
 
 This project is still being developed — Contributions and Issues are all welcome!
